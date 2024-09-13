@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-image: url('fondonosotros.png');
+            background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+            animation: slideIn 1.5s ease-out;
+        }
+        img {
+            width: 400px;
+            height: 450px;
+            border: 10px solid black; 
+            border-radius: 20px; 
+            animation: fadeIn 2s ease-in;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #ed89d2;
+            color: white;
+            transition: all 0.3s ease;
+        
+        }
+        button:hover {
+            background-color:rgb(74, 156, 200) ;
+            transform: scale(1.1); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+            animation: fadeIn 2s ease-in;
+        }
+        .contenedor {
+            width: 80%; /* Ancho del contenedor */
+            margin: 20px auto; /* Centramos el contenedor horizontalmente */
+            padding: 20px; /* Espacio interior del contenedor */
+            background-color: #e4d1d1; /* Color de fondo del contenedor */
+            border: 2px solid #ccc; /* Borde del contenedor */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra en el contenedor */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Datos sobre mi</h1>
+<img src="yo.jpeg" width="400px" height="500px">
+
+<div class="contenedor">
+<p>Soy Alexander y me gusta jugar videojuegos y mi novia.</p>
+<p>Tengo 16 años y cumplo el 13 de Diciembre,me gusta el color negro,soy alguien quien confia en sus habilidades y capacidades,estudio programacion ya que me gusta,soy bueno en los estudios y en matematicas.
+    Me gusta pasar el tiempo esuchando musica de todo tipo y estar en un lugar tranquilo.Soy alguien paciente y que le gusta ayudar a las personas y que le gustan los perros.
+</p>
+</div>
+
+<button onclick="location.href='Index.html'">Volver a la Página Principal</button>
+
+</body>
+</html>
